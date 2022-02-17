@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/utility.css" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="apple-touch-icon" href="/icons/icon-96x96.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="./js/main.js" defer></script>
+    <script type="module" src="./js/list.js" defer></script>
+    <script type="module" src="./js/class_handler.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/219357f765.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <title>Script Shop</title>
+  </head>
+  <body>
+    <aside class="flex-padded">
+      <header class="padded flex-padded">
+        <i class="fa fa-diamond"></i>
+        <h1>Script shop</h1>
+      </header>
+      <nav class="flex-padded">
+        <div
+          class="middle nav flex-padded rounded padded shadowed mob-hidden"
+          data-menu
+        >
+          <span><i class="fas fa-chart-line"></i>Dashboard</span>
+          <span><i class="far fa-lightbulb"></i>Lights</span>
+          <span><i class="fas fa-temperature-low"></i>Temperature</span>
+          <span><i class="fas fa-faucet"></i>Water</span>
+          <span><i class="fas fa-seedling"></i>Plants</span>
+        </div>
+        <div
+          class="bottom nav flex-padded rounded padded shadowed mob-hidden"
+          data-settings
+        >
+          <span><i class="fa-solid fa-power-off"></i>Logout</span>
+          <span><i class="fa fa-gear"></i>Settings</span>
+        </div>
+        <div class="mob nav flex-padded padded">
+          <i data-search-btn class="fa fa-search"></i>
+          <i data-filter-btn class="fa fa-filter"></i>
+          <i data-menu-btn class="fa fa-circle-notch"></i>
+          <i data-settings-btn class="fa-solid fa-sliders"></i>
+          <i data-top-btn data-top class="fa fa-arrow-up hidden"></i>
+        </div>
+      </nav>
+    </aside>
+    <main class="shadowed rounded">
+      <div class="content-header rounded">
+        <h2>Dashboard</h2>
+      </div>
+      <div class="search-and-filter flex-padded">
+        <input
+          class="bar mob-hidden"
+          type="text"
+          placeholder="Search"
+          data-search
+        />
+        <div class="bar mob-hidden" data-filter>Today</div>
+        <ul class="filter-list rounded shadowed padded hidden">
+          <li>H</li>
+          <li>8H</li>
+          <li>D</li>
+          <li>W</li>
+          <li>M</li>
+          <li>Q</li>
+          <li>HY</li>
+          <li>Y</li>
+          <li>Range</li>
+        </ul>
+      </div>
+      <div class="container rounded flex-padded">
+        <section class="flex-padded carousel">
+          <div class="card">Hello</div>
+          <div class="card">Hello</div>
+          <div class="card">Hello</div>
+        </section>
+        <section class="flex-padded carousel">
+          <div class="card">Hello</div>
+          <div class="card">Hello</div>
+          <div class="card">Hello</div>
+        </section>
+        <section class="flex-padded carousel">
+          <div class="card">Hello</div>
+          <div class="card">Hello</div>
+          <div class="card">Hello</div>
+        </section>
+        <section class="flex-padded carousel">
+          <div class="card">Hello</div>
+          <div class="card">Hello</div>
+          <div class="card">Hello</div>
+        </section>
+        <section class="flex-padded carousel">
+          <div class="card">Hello</div>
+          <div class="card">Hello</div>
+          <div class="card">Hello</div>
+        </section>
+        <section class="flex-padded carousel">
+          <div class="card">Hello</div>
+          <div class="card">Hello</div>
+          <div class="card">Hello</div>
+        </section>
+        <section class="flex-padded carousel">
+          <div class="card">Hello</div>
+          <div class="card">Hello</div>
+          <div class="card">Hello</div>
+        </section>
+        <section class="flex-padded carousel">
+          <div class="card">Hello</div>
+          <div class="card">Hello</div>
+          <div class="card">Hello</div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>

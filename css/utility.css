@@ -1,0 +1,36 @@
+.flex-padded {
+  display: flex;
+  gap: 1rem;
+}
+
+.rounded {
+  border-radius: 1rem;
+}
+
+.padded {
+  padding: 1rem;
+}
+
+.shadowed {
+  box-shadow: 0 0.25rem 1rem -0.5rem;
+}
+
+.across {
+  width: 100%;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.round-bottom {
+  border-radius: 0 0 1rem 1rem;
+}
+
+.hidden {
+  display: none !important;
+}
+
+li {
+  list-style-type: none;
+}
