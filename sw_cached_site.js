@@ -1,15 +1,15 @@
-const staticCache = 'static-v0';
+/*const staticCache = 'static-v0';
 const dynamicCache = 'dynamic-v0';
 const assets = [
   '/',
   // '/manifest.json',
   'index.html',
   'fallback.html',
-  'main.js',
+  'js/main.js',
   'js/list.js',
   'js/class_handler.js',
-  'style.css',
-  'utility.css',
+  'css/style.css',
+  'css/utility.css',
   'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css',
   'https://fonts.googleapis.com/css2?family=Poppins&display=swap',
   'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0',
@@ -84,4 +84,4 @@ self.addEventListener('fetch', (e) => {
     //   })
     //   .catch((err) => caches.match(e.request).then((res) => res))
   );
-});
+});*/
